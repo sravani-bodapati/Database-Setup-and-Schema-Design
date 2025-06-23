@@ -4,12 +4,18 @@ A relational database system built using SQL to efficiently manage student recor
 
 **Database Schema**
 
-•	This system is designed using the following core entities:
+This system is designed using the following core entities:
+
 •	Students — Personal and academic information of enrolled students
+
 •	Courses — Course codes, titles, and credits
+
 •	Faculty — Faculty member profiles and their associated departments
+
 •	Departments — List of academic departments
+
 •	Enrolments — Student-course enrolment records
+
 •	Marks — Grading information linked to each student's course
 
 **Technologies Used**
