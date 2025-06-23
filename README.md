@@ -1,6 +1,8 @@
 🎓 Student Management System
 
+
 A relational database system built using SQL to efficiently manage student records, course offerings, faculty assignments, department details, and academic performance.
+
 
 
 
@@ -22,11 +24,13 @@ This system is designed using the following core entities:
 
 
 
+
 ⚙️ Technologies Used
 
 SQL (MySQL) – For schema creation and query operations
 
 ER Diagram – Created using MySQL Workbench or similar diagramming tools
+
 
 
 
