@@ -1,16 +1,7 @@
 # Hospital Management System – Database Schema Design
 
 ## Objective
-Design and implement a relational database schema for managing hospital operations using MySQL (or PostgreSQL / SQLite). This includes entities such as Patients, Doctors, Appointments, Bills, and Departments.
-
-
-## Project Structure
-
-| File | Description |
-|------|-------------|
-| schema.sql | SQL script to create tables and define relationships |
-| er_diagram.png | ER diagram representing database structure |
-| README.md | Project overview, schema explanation, and key concepts |
+This project focuses on creating a relational database to manage various aspects of hospital operations including patient registration, doctor assignments, appointment scheduling, departmental structure, and billing. It aims to ensure data integrity, avoid redundancy, and provide a scalable foundation for hospital information systems.
 
 
 ## Database Entities and Relationships
@@ -48,7 +39,7 @@ Each patient can have multiple appointments and bills.
 - appointment_date
 - status
 
-Many-to-many relationship between doctors and patients.
+Represents a many-to-many relationship between doctors and patients over time.
 
 ### 5. *Bills*
 - bill_id (PK)
@@ -59,11 +50,11 @@ Many-to-many relationship between doctors and patients.
 
 Each patient can have multiple bills.
 
+
 ## Key Concepts Used
 
-- ✅ *DDL* (Data Definition Language): CREATE, PRIMARY KEY, FOREIGN KEY, AUTO_INCREMENT
-- ✅ *Normalization*: Data is organized in 3NF to reduce redundancy.
-- ✅ *Constraints*: Used NOT NULL, UNIQUE, AUTO_INCREMENT, etc.
-- ✅ *ER Diagram*: Visual representation of entities and their relationships.
-- ✅ *Relational Integrity*: Enforced using foreign keys and cascading rules if needed.
-
+- *DDL (Data Definition Language)*: CREATE, PRIMARY KEY, FOREIGN KEY, AUTO_INCREMENT
+- *Normalization: Data is organized in **3NF* to eliminate redundancy and improve consistency.
+- *Constraints*: Applied NOT NULL, UNIQUE, AUTO_INCREMENT, etc.
+- *ER Diagram*: Illustrates entity relationships clearly.
+- *Relational Integrity*: Maintained through foreign key constraints and defined relationships.
