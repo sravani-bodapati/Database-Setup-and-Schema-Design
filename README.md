@@ -60,4 +60,4 @@ Each patient can have multiple bills.
 - *Relational Integrity*: Maintained through foreign key constraints and defined relationships.
 
 # Tools Used
--mysql workbench 
+- mysql workbench 
