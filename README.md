@@ -58,3 +58,6 @@ Each patient can have multiple bills.
 - *Constraints*: Applied NOT NULL, UNIQUE, AUTO_INCREMENT, etc.
 - *ER Diagram*: Illustrates entity relationships clearly.
 - *Relational Integrity*: Maintained through foreign key constraints and defined relationships.
+
+# Tools Used
+-mysql workbench 
